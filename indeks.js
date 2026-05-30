@@ -19,11 +19,11 @@
  function updateTimer(){
      seconds++;
      timer.innerHTML = ` ${hours}:${minutes}:${seconds}`
-     if(seconds == "05" ) {
+     if(seconds == "60" ) {
          seconds = "00"
         minutes++;
      }
-     else if (minutes == "05") {
+     else if (minutes == "60") {
         minutes = "00"
          hours++
      } 
